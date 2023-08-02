@@ -50,10 +50,25 @@
       </nav>
     </div>
 
-    <div class="des">
-     DESCRIPCION
+    <div class="inver">
+      SIMULADOR DE COSTOS 
+      <form name="formulario">
+        <input type="text" id="dias" name="dias" placeholder="Cantidad de dias">
+        <input type="text" value="5000" id="precio" name="precio" disabled><br>
+
+        <input type="button" value="CALCULAR COSTO" onclick="costos()">
+
+        <input type="text" id="total" name="total" value="0" disabled><br>
+
+        <!--<input type="text" id="gananciaintencion" name="gani"><br>
+        //<input type="button" value="CALCULAR INVERSION" onclick="metagan()"> -->
+
+        <input type="button" value="CON DESCUENTO" onclick="descuento()">
+        <input type="text" id="des" name="des" value="0" disabled><br>
+
+      </form>
     </div>
-    <div class="fotos">
+    <div class="fotos2">
 
       <div class="carou">
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">

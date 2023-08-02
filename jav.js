@@ -12,3 +12,19 @@ function metagan(){
 
     document.formulario.inversion.value = capital;
 }
+
+function costos(){
+    const days= document.formulario.dias.value;
+    const resultado= days * document.formulario.precio.value;
+
+    document.formulario.total.value= resultado;
+
+}
+
+function descuento(){
+
+    const days= document.formulario.dias.value;
+    const resultado= days * (document.formulario.precio.value * 0.9);
+
+    document.formulario.des.value= resultado;
+}

@@ -28,12 +28,26 @@ body{
     grid-row: 3;
     grid-column: 1/2;
 }
+
+.inver{
+    background-color: rgb(218, 141, 26);
+    grid-row: 3;
+    grid-column: 4/5;
+}
 .fotos{
     background-color: aquamarine;
     padding-left: 20%;
     padding-right: auto;
     grid-row: 3;
     grid-column: 2/5;
+}
+
+.fotos2{
+    background-color: aquamarine;
+    padding-left: 20%;
+    padding-right: auto;
+    grid-row: 3;
+    grid-column: 1/4;
 }
 .carou{
 height: 300px;
@@ -53,3 +67,14 @@ grid-column: 1/2;
 grid-column: 4/5;
 
 }
+
+.altura{
+    height: 300px;
+}
+  
+  
+  
+  
+  
+  
+  
